@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", (event) => {
+document.addEventListener("DOMContentLoaded", () => {
   const apiKey = '0bc01f8b0a4c44ffafa63337251503' ;
 
   const fetchData = async (cityName) => {
