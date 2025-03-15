@@ -1,3 +1,3 @@
 document.addEventListener("DOMContentLoaded", (event) => {
-  console.log("DOM fully loaded and parsed");
+  const apikey = '0bc01f8b0a4c44ffafa63337251503' ;
 });
