@@ -31,9 +31,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const tdWeather = document.createElement('td');
         tdWeather.innerText = data.current.condition.text;
         tr.appendChild(tdWeather);
-        const tdID = document.createELement('td');
-        tdID.innerText = data.location.tz_id;
-        tr.appendChild(tdID);
         tableData.appendChild(tr);
       }
   })
