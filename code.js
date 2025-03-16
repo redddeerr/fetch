@@ -28,6 +28,9 @@ document.addEventListener("DOMContentLoaded", () => {
         const tdTemp = document.createElement('td');
         tdTemp.innerText = data.current.temp_c;
         tr.appendChild(tdTemp);
+        const tdFeelsLike = document.createElement('td');
+        tdFeelsLike.innerText = data.current.feelslike_c;
+        tr.appendChild(tdFeelsLike);
         const tdWeather = document.createElement('td');
         tdWeather.innerText = data.current.condition.text;
         tr.appendChild(tdWeather);
@@ -48,6 +51,9 @@ document.addEventListener("DOMContentLoaded", () => {
       const tdTemp = document.createElement('td');
       tdTemp.innerText = data.current.temp_c;
       tr.appendChild(tdTemp);
+      const tdFeelsLike = document.createElement('td');
+      tdFeelsLike.innerText = data.current.feelslike_c;
+      tr.appendChild(tdFeelsLike);
       const tdWeather = document.createElement('td');
       tdWeather.innerText = data.current.condition.text;
       tr.appendChild(tdWeather);
